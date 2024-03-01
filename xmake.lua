@@ -1,0 +1,6 @@
+target("main")
+set_kind("binary")
+add_files("main.c")
+add_includedirs("./inc")
+add_links("nvapi64")
+add_linkdirs("./lib")
