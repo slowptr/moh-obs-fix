@@ -24,6 +24,13 @@ Whilst trying to capture MOHAA (/-SH/-BT) using the GameCapture feature of [OBS 
 - Input 1 for fixing the OBS-Issues
   - (If you want to revert it to default, input 2)
 - (Re-)start MOHAA and try capturing the game using the OBS-GameCapture feature
+#### Troubleshooting
+- If it's not yet working:
+  - Double-Click on your GameCapture and enable 'Capture third-party overlays (such as steam)'
+- If the game is crashing for you:
+  - Try enabling 'SLI/Crossfire Capture Mode (Slow)'
+  - Still crashing? Try setting Hook Rate to Slow
+  - (I'll have to further investigate, if anti-cheat compatibility hooks has an impact)
 
 ---
 
